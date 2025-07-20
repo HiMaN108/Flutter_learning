@@ -12,7 +12,7 @@ void main() {
               ),
             ),
             child: const Center(
-              child: Text('hellow world guys!'),
+              child: Text('fix the hello world guys!'),
             ),
           )
           ),
