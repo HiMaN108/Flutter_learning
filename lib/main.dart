@@ -5,13 +5,17 @@ void main() {
        MaterialApp(
         home:Scaffold(
            backgroundColor: Colors.blueAccent,
-          body: Center(
-            child: Container(
-              padding: EdgeInsets.all(24),
-              color: Colors.amber,
-              child: Text('hello'),
+          body: Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                  colors:
+              ),
             ),
+            child: const Center(
+              child: Text('hellow world guys!'),
+            ),
+          )
           ),
         ),
-      ));
+      );
   }
